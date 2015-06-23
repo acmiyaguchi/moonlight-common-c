@@ -9,7 +9,6 @@ limelight-common/FakeCallbacks.c
 limelight-common/InputStream.c
 limelight-common/LinkedBlockingQueue.c
 limelight-common/PlatformSockets.c
-limelight-common/PlatformThreads.c
 limelight-common/RtspConnection.c
 limelight-common/RtspParser.c
 limelight-common/SdpGenerator.c
