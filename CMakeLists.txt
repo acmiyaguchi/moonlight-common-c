@@ -21,4 +21,5 @@ limelight-common/OpenAES/oaes_base64.c
 limelight-common/OpenAES/oaes_lib.c
 )
 
-add_library(moonlight SHARED ${MOONLIGHT_SOURCES})
+set(CMAKE_POSITION_INDEPENDENT_CODE ON) 
+add_library(moonlight STATIC ${MOONLIGHT_SOURCES})
